@@ -35,12 +35,40 @@
 #     print(x2-x1)
 # if x1 > x2 and y1== y2:
 #     print(x1 - x2)
-file = open("words.txt",'w')
-file.write('anonymously\n''compatibility\n''dashboard\n''experience\n''photography\n''spotlight\n''warehouse\n')
-file.close()
-file = open("words.txt",'r')
-s = file.read()
-print(s)
-file.close()
+# file = open("words.txt",'w')
+# file.write('anonymously\n''compatibility\n''dashboard\n''experience\n''photography\n''spotlight\n''warehouse\n')
+# file.close()
+# file = open("words.txt",'r')
+# s = file.read()
+# print()
+# file.close()
 # write를 사용해서 문자열을 쓸수있다
-
+#
+# N = int(input())
+# if N == 0 :
+#     print("divide by zero")
+# else:
+#     print("1.00")
+# N, M, K = map(int,input().split())
+# 앞면x = N-M
+# 뒷면x = N-K
+# # print(min(M,K) + min(앞면x,뒷면x))
+# a = int(input())
+# b = int(input())
+# print(2*a + 2 * 3.141592 * b)
+# n = int(input())
+# 답 = 0
+# if n//2%2 == 0 :
+#     답 = 2
+# elif n%2 == 1:
+#     답 = 0
+# else:
+#     답 = 1
+# print(답)
+# def divide(a,b) :
+#     return a//b, a%b
+# c,d = divide(5,2)
+# print(c)
+# e,f = add_sub(10,6)
+# print
+# def operate(10,3,'+')
