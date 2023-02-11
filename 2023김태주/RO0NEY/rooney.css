@@ -68,7 +68,7 @@ table {
 
 .name{
     display: flex;
-    height: 20%;
+    height: 16.5%;
 }
 .left{
     text-align: center;
@@ -80,6 +80,7 @@ table {
     flex-direction: column;
     justify-content: center;
     font-weight: 800;
+    border-bottom: solid 1px white;
 }
 .right{
     text-align: center;
@@ -88,4 +89,5 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-bottom: 1px solid #DDDDDD;
 }

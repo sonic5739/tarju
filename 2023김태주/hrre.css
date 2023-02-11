@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.idbox{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titlebox{
+    width: 15%;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.img{
+    width: 100%;
+}
+.kakaobox{
+    background-color: #FCE51E;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius:5px ;
+}
+.facebookbox{
+    background-color: #1877F2;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius:5px ;
+}
+.naverbox{
+    background-color: #28D111;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius:5px ;
+}
+.also{
+    margin-bottom: 20px;
+}
+.email{
+    width: 50%;
+    padding: 15px;
+    color: rgba(0,0,0,0.15);
+    margin-bottom: 10px;
+    border: solid 1px  rgba(0,0,0,0.15);
+    border-radius:5px ;
+}
+.number{
+    width: 50%;
+    padding: 15px;
+    color: rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+    border: solid 1px  rgba(0,0,0,0.15);
+    border-radius:5px ;
+}
+.rogin{
+    background-color: #F80850;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius:5px ;
+}
+.guitar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+}
+.guitar1{
+    border-right: 1px solid rgba(0,0,0,0.15);
+    padding-right: 50px;
+
+}
+.img1{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2111/2111496.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
