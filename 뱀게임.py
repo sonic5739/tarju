@@ -14,11 +14,7 @@ pygame.init() # 파이게임 초기값
 음식 = [ ] # 여러개 음식을 저장할 리스트
 뱀 = [ ] # 여러개 뱀 꼬리를 저장할 리스트
 ( 가로 , 세로 ) = (50,50) # 가로길이 세로길이 튜플선언
-# 배경 넣기
 배경 = pygame.image.load('정글사진.jpg') # 배경 사진 넣기
-# 배경 소리
-pygame.mixer.music.load('nightlife-michael-kobrin-95bpm-3783 (1).mp3') # 배경음악 넣기
-pygame.mixer.music.play( -1 ) # 배경음악 플레이
 # 3. 함수 만들기
 # 1)음식함수
 def makefood() : # 임이의 장소에 음식을 배치하는 함수
