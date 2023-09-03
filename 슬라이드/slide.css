@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    border: solid 3px black;
+}
+.top{
+    flex: 1;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.middle1{
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+}
+.middle2{
+    flex: 3;
+    display: flex;
+}
+.bottom{
+    flex: 1;
+    background-color: black;
+}
+.first{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    background-color: #ef5350;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    flex: 2;
+    display: flex;
+}
+.second{
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+.last{
+    flex: 1;
+    background-color: yellow;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+.first2{
+    flex: 1;
+    background-color: blue;
+}
+.second2{
+    flex: 1;
+    background-color: brown;
+}
+.third{
+    flex: 1;
+    background-color: navy;
+}
+.last2{
+    flex: 1;
+    background-color: pink;
+}
+.card1{
+    flex: 2;
+    display: flex;
+}
+.card2{
+    flex: 2;
+    display: flex;
+}
+.GK{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.lwrw{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.CM{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.CAM{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.CB{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.ST{
+    display: flex;
+    justify-content: center;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+@media screen and (max-width:1024px) {
+    .middle1{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:720px) {
+    .middle2{
+        flex-direction: column;
+    }
+    .card1{
+        flex-direction: column;
+    }
+    .card2{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+}
+.img1{
+    text-align: center;
+    font-size: large;
+}

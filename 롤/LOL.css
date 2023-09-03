@@ -1,0 +1,58 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.box{
+    width: 224px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgba(0,0,0,0.15);
+}
+.up{
+    flex: 1;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down{
+    flex: 4;
+    display: flex;
+    flex-direction:column ;
+}
+.list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    border-radius:50% ;
+}
+.character{
+    flex: 1;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgBox{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.imgBox > img{
+    width: 100%;
+    height: 100%;
+}
+
+.nameBox{
+    font-size: xx-small;
+    color: gray;
+}

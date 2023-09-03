@@ -1,0 +1,25 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+.one{
+    flex: 1;
+    background-color: blue;
+    margin-right: 20px;
+}
+.two{
+    flex: 1;
+    background-color: blue;
+    margin-right: 20px;
+}
+.three{
+    flex: 1;
+    background-color: blue;
+}

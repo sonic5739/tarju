@@ -1,0 +1,18 @@
+.hello{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.box{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}

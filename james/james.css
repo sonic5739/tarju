@@ -1,0 +1,52 @@
+.title{
+    display: flex;
+    align-items: center;
+}
+.name {
+    margin-left: 10px;
+    color: #78C3D5;
+    margin-bottom: 10px;
+}
+.ovr{
+    display: flex;
+    margin-bottom: 10px;
+}
+.position{
+    color: #127CC0;
+    margin-right: 15px;
+}
+.ovr2{
+    margin-right: 7px;
+    margin-bottom: 10px;
+}
+.magine{
+    margin-bottom: 10px;
+    font-size: small;
+}
+.james{
+    width: 160px;
+    height: 210px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #127CC0;
+    width: fit-content;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.box:hover{
+    background-color: blue;
+    transition: 2s;
+}
+.left2{
+    display: flex;
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

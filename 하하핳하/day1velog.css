@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hello{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.spain{
+    margin-bottom: 40px;
+}
+.england{
+    margin-bottom: 40px;
+}

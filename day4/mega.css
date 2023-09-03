@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.layout{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+.hello{
+    width: 270px;
+    height: 300px;
+    transition: all 0.2s linear
+}
+.hi{
+    color: #CFCFCE;
+    font-size: small;
+}
+.write1{
+    font-size: large;
+    margin-bottom: 20px;
+}
+.write2{
+    margin-bottom: 15px;
+}
+.icon{
+    color: white;
+    background-color: #007EFF;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 17px;
+    border: solid 1px #007EFF;
+}
+.write{
+    font-family: 'Rubik Iso', cursive;
+}
+.hello:hover{
+    transform: scale(1.3);
+}
+.img{
+    display: flex;
+    align-items: end;
+}

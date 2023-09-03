@@ -1,0 +1,28 @@
+.card {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: #f44336;
+    border-radius: 10px;
+
+}
+.image {
+    background-image: url("https://image.fmkorea.com/files/attach/new2/20210418/5665468/66189002/3533149040/587fe24472802c29698f4a6c02f39f7d.png");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: all 0.5s linear 0s;
+}
+.write{
+    font-weight: 800;
+}
+.record{
+    padding: 10px;
+}
+.card:hover .image{
+    background-image: url("https://blog.kakaocdn.net/dn/TA6jz/btqQZwtU0L7/QXlEBjlgcGKvhGFaz3fv0K/img.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

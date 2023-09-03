@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.color{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 20%;
+    background-color: pink;
+}
+.left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.red{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+.blue{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+.green{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+}
+.yellow{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+.black{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.purple{
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width : 1024px) {
+    .left{
+        flex-direction: column;
+    }
+    .right{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width : 720px) {
+    .color{
+        flex-direction: column;
+    }
+}

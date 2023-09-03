@@ -1,0 +1,29 @@
+.card{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.imgbox{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.textbox{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.layout{
+    display: flex;
+    justify-content: space-around;
+}

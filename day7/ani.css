@@ -1,0 +1,24 @@
+/* .animation{
+    transform: translate(100px,100px);
+}
+.animation:hover{
+    transform: translate(200px,200px);
+} */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #2B58D9;
+    background-image: url("https://i.namu.wiki/i/ezMRISp4ZzBojDzsCSCY71zAOvCdney9SGsqpmFy-GE5Q_dNnqTNVQoFiI9F2COAZCUsaIzK_1-ZuTRluEOBNmUXxgqoPh6QfATa9DFp_Z0oHfizBVJAbjl9S-olY-hZd7Erj1ZWHLiChEzeZPFqvg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.box:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay:0 ;
+    background-color: red;
+    background-image: url("https://i.namu.wiki/i/xRDtuu1hjD_CbeHavKVyCsxv_jOg8zAVt5bIfxwHQ-IKeMffPhqPJX68DoH5WkIoBB6Lj3LG5bhtGRx0qCk4ESwFMzOHI8gMUlJO0AeN6XhHU5PByIRK81yGUVeIXKNvPkB5LR0l8k0yVwctg96mrA.svg");
+    rotate: 45deg;
+
+
+}

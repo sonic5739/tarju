@@ -1,0 +1,41 @@
+.layout{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_field{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border: 1px solid rgba(0,0,0,0.15);
+    width: 80%;
+    height: 400px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+@media screen and (max-width: 1024px) and(min-width: 768px) { 
+    .card_field{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:768px) {
+    .card_field{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card{
+        width: 80%;
+    }
+}

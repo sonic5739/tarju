@@ -1,0 +1,34 @@
+.card{
+    width: 800px;
+    height: 400px;
+    background-image: url("https://w.namu.la/s/19a0faba3c96ae88d812420546b1eb4631cde3bbd1e9ec271c66833f68fbe69e92fbe7bff69741cc0b721c00f62cd6da67ab0977b660d13e0dd31e5fc67db106d5c352c126971fa5dab0bd857bf339022738a1ecd703ed60635634a857c0762442255b512f98c16eebd3b6ac05faa89c");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 15px 15px 0 #ef9a9a ;
+    transition: all 2s ;
+}
+.card:hover{
+    box-shadow: none;
+}
+.card2{
+    width: 200px;
+    height: 300px;
+}
+.player{
+    filter: drop-shadow(15px 15px 0  #ef9a9a);
+    transition: all 2s;
+}
+.player:hover{
+    filter: drop-shadow(0px 0px 0);
+}
+.team{
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: url("https://blog.kakaocdn.net/dn/TA6jz/btqQZwtU0L7/QXlEBjlgcGKvhGFaz3fv0K/img.png");
+    background-repeat: no-repeat;
+    background-size: 100% cover;
+    color: #ef9a9a;
+    font-size: 150px;
+    font-weight: 700;
+    position: relative;
+}

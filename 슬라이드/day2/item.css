@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img1{
+    margin-bottom: 20px;
+}
+.write{
+    font-size: smaller;
+    display: flex;
+    margin-bottom: 10px;
+}
+.hello{
+    color: #888888;
+    margin-left: 20px;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.helloo{
+    color: red;
+    font-size: larger;
+    margin-right: 20px;
+}
+.apple{
+    margin-bottom: 10px;
+}
+.img2{
+    width: 35px;
+    height: 15px;
+}
+.hellooo{
+    color: #008C00;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.img3{
+    width: 15px;
+    height: 15px;
+    
+}
+.helloooo{
+    color: #888888;
+    font-size: smaller;
+}
+.hellooooo{
+    display: flex;
+    margin-bottom: 10px;
+}
+.hi{
+    margin-right: 5px;
+}
+.haha{
+    border: solid 1px #888888;
+    border-radius: 40px;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 7px;
+    align-items: center;
+    padding-right: 10px;
+}
+.hi2{
+    margin-right: 10px;
+    margin-left: 10px;
+}

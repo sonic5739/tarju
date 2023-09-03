@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction:column ;
+}
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.son{
+    font-weight: 900;
+}
+.harry{
+    color: #7B7B7B;
+    background-color: #F6F8FA;
+    padding: 5px;
+    border-radius: 20px;
+}
